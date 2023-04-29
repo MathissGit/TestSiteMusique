@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(175, 175, 175);
+}
+
+.container{
+    background-color: rgb(175, 175, 175);
+    background-position: center;
+    background-size: cover;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 90px;
+    cursor: pointer;
+}
+
+.menu-burger{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.section{
+    width: 100%;
+    min-height: 70vh;
+    background-color: rgb(175, 175, 175);
+}
+
+.contenu{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.image-section{
+    float: right;
+    width: 40%;
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.content-section .content p{
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+h1{
+    color: black;
+    font-size: 80px;
+    margin-left: 5%;
+}
